@@ -1,4 +1,4 @@
 // showing that we don't need a wrapper object
-define(function() {
-	 return "dependency2.my_method returns this string";
+define(["subDependency"], function(subDependency) {
+	 return "dependency2.my_method returns this string + this string from its subdependency - " + subDependency;
 });
