@@ -1,7 +1,4 @@
+// showing that we don't need a wrapper object
 define(function() {
-	return {
-		my_method: function(){
-			 return "dependency2.my_method returns this string";
-		}	
-	}	
+	 return "dependency2.my_method returns this string";
 });

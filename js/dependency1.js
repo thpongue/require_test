@@ -1,3 +1,4 @@
+// typical loaded object
 define(function() {
 	return {
 		my_method: function(){
